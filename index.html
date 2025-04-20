@@ -91,10 +91,17 @@
           </fieldset>
           <fieldset>
             <legend>Work Mode</legend>
-            <input type="radio" id="solo" name="workmode" value="solo"><br><br>
+            <input type="radio" id="solo" name="workmode" value="solo">
             <label for="solo">Solo</label><br>
-            <input type="date" id="meeting" name="meeting"><br><br>
+            <input type="radio" id="pairs" name="workmode" value="pairs">
+            <label for="pairs">Pairs</label><br><br>
+            <input type="checkbox" id="updates" name="updates" checked>
+            <label for="updates">Updates</label><br><br>
+            
+            <label for="feedback">Feedback</label><br>
+            <textarea id="feedback" name="feedback" rows="3" cols="30" ></textarea><br><br>
           </fieldset>
+          
         </form>
     </main>
   </body>
