@@ -89,6 +89,7 @@
             <label for="meeting">Meeting:</label><br>
             <input type="date" id="meeting" name="meeting"><br><br>
           </fieldset>
+          
           <fieldset>
             <legend>Work Mode</legend>
             <input type="radio" id="solo" name="workmode" value="solo">
@@ -97,13 +98,21 @@
             <label for="pairs">Pairs</label><br><br>
             <input type="checkbox" id="updates" name="updates" checked>
             <label for="updates">Updates</label><br><br>
-            
+
+            <label for="satisfaction">Select your satisfaction:</label><br>
+            <select id="satisfaction" name="satisfaction">
+              <option value="satisfy">Satisfy</option>
+              <option value="notsatisfy">Not Satisfy</option>
+            </select><br><br>
             <label for="feedback">Feedback</label><br>
             <textarea id="feedback" name="feedback" rows="3" cols="30" ></textarea><br><br>
           </fieldset>
-          
+          <button type="submit">Submit feedback</button>
         </form>
       </section>
     </main>
+    <footer>
+      <p>2025 Pomodoro Timer</p>
+    </footer>
   </body>
 </html>
