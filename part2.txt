@@ -1,4 +1,3 @@
-
 HTMLRules
 ShraviBeatsReact
 iHateC++ 
@@ -6,5 +5,7 @@ coolcoolcool3x
 WongAvery
 2020_sucked
 JavaScriptRocks
+ThisIsJSyay; 
 ElaineFirst
 listenToPetalcore
+SofiaWasHere
